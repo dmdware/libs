@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		AC8407981AE6671500E93024 /* .deps */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .deps; sourceTree = "<group>"; };
+		AC8407991AE6671500E93024 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		AC84079A1AE6671500E93024 /* .libs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .libs; sourceTree = "<group>"; };
+		AC84079B1AE6671500E93024 /* aclocal.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = aclocal.m4; sourceTree = "<group>"; };
+		AC84079C1AE6671500E93024 /* ar-lib */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "ar-lib"; sourceTree = "<group>"; };
+		AC84079D1AE6671500E93024 /* cderror.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cderror.h; sourceTree = "<group>"; };
+		AC84079E1AE6671500E93024 /* cdjpeg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cdjpeg.c; sourceTree = "<group>"; };
+		AC84079F1AE6671500E93024 /* cdjpeg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cdjpeg.h; sourceTree = "<group>"; };
+		AC8407A01AE6671500E93024 /* cdjpeg.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = cdjpeg.o; sourceTree = "<group>"; };
+		AC8407A11AE6671500E93024 /* change.log */ = {isa = PBXFileReference; lastKnownFileType = text; path = change.log; sourceTree = "<group>"; };
+		AC8407A21AE6671500E93024 /* cjpeg */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = cjpeg; sourceTree = "<group>"; };
+		AC8407A31AE6671500E93024 /* cjpeg.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = cjpeg.1; sourceTree = "<group>"; };
+		AC8407A41AE6671500E93024 /* cjpeg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cjpeg.c; sourceTree = "<group>"; };
+		AC8407A51AE6671500E93024 /* cjpeg.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = cjpeg.o; sourceTree = "<group>"; };
+		AC8407A61AE6671500E93024 /* ckconfig.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ckconfig.c; sourceTree = "<group>"; };
+		AC8407A71AE6671500E93024 /* coderules.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = coderules.txt; sourceTree = "<group>"; };
+		AC8407A81AE6671500E93024 /* compile */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = compile; sourceTree = "<group>"; };
+		AC8407A91AE6671500E93024 /* config.guess */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.guess; sourceTree = "<group>"; };
+		AC8407AA1AE6671500E93024 /* config.log */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.log; sourceTree = "<group>"; };
+		AC8407AB1AE6671500E93024 /* config.status */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.status; sourceTree = "<group>"; };
+		AC8407AC1AE6671500E93024 /* config.sub */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.sub; sourceTree = "<group>"; };
+		AC8407AD1AE6671500E93024 /* configure */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = configure; sourceTree = "<group>"; };
+		AC8407AE1AE6671500E93024 /* configure.ac */ = {isa = PBXFileReference; lastKnownFileType = text; path = configure.ac; sourceTree = "<group>"; };
+		AC8407AF1AE6671500E93024 /* depcomp */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = depcomp; sourceTree = "<group>"; };
+		AC8407B01AE6671500E93024 /* djpeg */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = djpeg; sourceTree = "<group>"; };
+		AC8407B11AE6671500E93024 /* djpeg.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = djpeg.1; sourceTree = "<group>"; };
+		AC8407B21AE6671500E93024 /* djpeg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = djpeg.c; sourceTree = "<group>"; };
+		AC8407B31AE6671500E93024 /* djpeg.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = djpeg.o; sourceTree = "<group>"; };
+		AC8407B41AE6671500E93024 /* example.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = example.c; sourceTree = "<group>"; };
+		AC8407B51AE6671500E93024 /* filelist.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = filelist.txt; sourceTree = "<group>"; };
+		AC8407B61AE6671500E93024 /* install-sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-sh"; sourceTree = "<group>"; };
+		AC8407B71AE6671500E93024 /* install.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = install.txt; sourceTree = "<group>"; };
+		AC8407B81AE6671500E93024 /* jaricom.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jaricom.c; sourceTree = "<group>"; };
+		AC8407B91AE6671500E93024 /* jaricom.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jaricom.lo; sourceTree = "<group>"; };
+		AC8407BA1AE6671500E93024 /* jaricom.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jaricom.o; sourceTree = "<group>"; };
+		AC8407BB1AE6671500E93024 /* jcapimin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jcapimin.c; sourceTree = "<group>"; };
+		AC8407BC1AE6671500E93024 /* jcapimin.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jcapimin.lo; sourceTree = "<group>"; };
+		AC8407BD1AE6671500E93024 /* jcapimin.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jcapimin.o; sourceTree = "<group>"; };
+		AC8407BE1AE6671500E93024 /* jcapistd.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jcapistd.c; sourceTree = "<group>"; };
+		AC8407BF1AE6671500E93024 /* jcapistd.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jcapistd.lo; sourceTree = "<group>"; };
+		AC8407C01AE6671500E93024 /* jcapistd.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jcapistd.o; sourceTree = "<group>"; };
+		AC8407C11AE6671500E93024 /* jcarith.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jcarith.c; sourceTree = "<group>"; };
+		AC8407C21AE6671500E93024 /* jcarith.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jcarith.lo; sourceTree = "<group>"; };
+		AC8407C31AE6671500E93024 /* jcarith.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jcarith.o; sourceTree = "<group>"; };
+		AC8407C41AE6671500E93024 /* jccoefct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jccoefct.c; sourceTree = "<group>"; };
+		AC8407C51AE6671500E93024 /* jccoefct.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jccoefct.lo; sourceTree = "<group>"; };
+		AC8407C61AE6671500E93024 /* jccoefct.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jccoefct.o; sourceTree = "<group>"; };
+		AC8407C71AE6671500E93024 /* jccolor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jccolor.c; sourceTree = "<group>"; };
+		AC8407C81AE6671500E93024 /* jccolor.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jccolor.lo; sourceTree = "<group>"; };
+		AC8407C91AE6671500E93024 /* jccolor.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jccolor.o; sourceTree = "<group>"; };
+		AC8407CA1AE6671500E93024 /* jcdctmgr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jcdctmgr.c; sourceTree = "<group>"; };
+		AC8407CB1AE6671500E93024 /* jcdctmgr.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jcdctmgr.lo; sourceTree = "<group>"; };
+		AC8407CC1AE6671500E93024 /* jcdctmgr.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jcdctmgr.o; sourceTree = "<group>"; };
+		AC8407CD1AE6671500E93024 /* jchuff.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jchuff.c; sourceTree = "<group>"; };
+		AC8407CE1AE6671500E93024 /* jchuff.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jchuff.lo; sourceTree = "<group>"; };
+		AC8407CF1AE6671500E93024 /* jchuff.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jchuff.o; sourceTree = "<group>"; };
+		AC8407D01AE6671500E93024 /* jcinit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jcinit.c; sourceTree = "<group>"; };
+		AC8407D11AE6671500E93024 /* jcinit.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jcinit.lo; sourceTree = "<group>"; };
+		AC8407D21AE6671500E93024 /* jcinit.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jcinit.o; sourceTree = "<group>"; };
+		AC8407D31AE6671500E93024 /* jcmainct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jcmainct.c; sourceTree = "<group>"; };
+		AC8407D41AE6671500E93024 /* jcmainct.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jcmainct.lo; sourceTree = "<group>"; };
+		AC8407D51AE6671500E93024 /* jcmainct.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jcmainct.o; sourceTree = "<group>"; };
+		AC8407D61AE6671500E93024 /* jcmarker.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jcmarker.c; sourceTree = "<group>"; };
+		AC8407D71AE6671500E93024 /* jcmarker.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jcmarker.lo; sourceTree = "<group>"; };
+		AC8407D81AE6671500E93024 /* jcmarker.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jcmarker.o; sourceTree = "<group>"; };
+		AC8407D91AE6671500E93024 /* jcmaster.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jcmaster.c; sourceTree = "<group>"; };
+		AC8407DA1AE6671500E93024 /* jcmaster.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jcmaster.lo; sourceTree = "<group>"; };
+		AC8407DB1AE6671500E93024 /* jcmaster.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jcmaster.o; sourceTree = "<group>"; };
+		AC8407DC1AE6671500E93024 /* jcomapi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jcomapi.c; sourceTree = "<group>"; };
+		AC8407DD1AE6671500E93024 /* jcomapi.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jcomapi.lo; sourceTree = "<group>"; };
+		AC8407DE1AE6671500E93024 /* jcomapi.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jcomapi.o; sourceTree = "<group>"; };
+		AC8407DF1AE6671500E93024 /* jconfig.bcc */ = {isa = PBXFileReference; lastKnownFileType = text; path = jconfig.bcc; sourceTree = "<group>"; };
+		AC8407E01AE6671500E93024 /* jconfig.cfg */ = {isa = PBXFileReference; lastKnownFileType = text; path = jconfig.cfg; sourceTree = "<group>"; };
+		AC8407E11AE6671500E93024 /* jconfig.dj */ = {isa = PBXFileReference; lastKnownFileType = text; path = jconfig.dj; sourceTree = "<group>"; };
+		AC8407E21AE6671500E93024 /* jconfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jconfig.h; sourceTree = "<group>"; };
+		AC8407E31AE6671500E93024 /* jconfig.mac */ = {isa = PBXFileReference; lastKnownFileType = text; path = jconfig.mac; sourceTree = "<group>"; };
+		AC8407E41AE6671500E93024 /* jconfig.manx */ = {isa = PBXFileReference; lastKnownFileType = text; path = jconfig.manx; sourceTree = "<group>"; };
+		AC8407E51AE6671500E93024 /* jconfig.mc6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = jconfig.mc6; sourceTree = "<group>"; };
+		AC8407E61AE6671500E93024 /* jconfig.sas */ = {isa = PBXFileReference; lastKnownFileType = text; path = jconfig.sas; sourceTree = "<group>"; };
+		AC8407E71AE6671500E93024 /* jconfig.st */ = {isa = PBXFileReference; lastKnownFileType = text; path = jconfig.st; sourceTree = "<group>"; };
+		AC8407E81AE6671500E93024 /* jconfig.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = jconfig.txt; sourceTree = "<group>"; };
+		AC8407E91AE6671500E93024 /* jconfig.vc */ = {isa = PBXFileReference; lastKnownFileType = text; path = jconfig.vc; sourceTree = "<group>"; };
+		AC8407EA1AE6671500E93024 /* jconfig.vms */ = {isa = PBXFileReference; lastKnownFileType = text; path = jconfig.vms; sourceTree = "<group>"; };
+		AC8407EB1AE6671500E93024 /* jconfig.wat */ = {isa = PBXFileReference; lastKnownFileType = text; path = jconfig.wat; sourceTree = "<group>"; };
+		AC8407EC1AE6671500E93024 /* jcparam.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jcparam.c; sourceTree = "<group>"; };
+		AC8407ED1AE6671500E93024 /* jcparam.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jcparam.lo; sourceTree = "<group>"; };
+		AC8407EE1AE6671500E93024 /* jcparam.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jcparam.o; sourceTree = "<group>"; };
+		AC8407EF1AE6671500E93024 /* jcprepct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jcprepct.c; sourceTree = "<group>"; };
+		AC8407F01AE6671500E93024 /* jcprepct.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jcprepct.lo; sourceTree = "<group>"; };
+		AC8407F11AE6671500E93024 /* jcprepct.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jcprepct.o; sourceTree = "<group>"; };
+		AC8407F21AE6671500E93024 /* jcsample.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jcsample.c; sourceTree = "<group>"; };
+		AC8407F31AE6671500E93024 /* jcsample.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jcsample.lo; sourceTree = "<group>"; };
+		AC8407F41AE6671500E93024 /* jcsample.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jcsample.o; sourceTree = "<group>"; };
+		AC8407F51AE6671500E93024 /* jctrans.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jctrans.c; sourceTree = "<group>"; };
+		AC8407F61AE6671500E93024 /* jctrans.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jctrans.lo; sourceTree = "<group>"; };
+		AC8407F71AE6671500E93024 /* jctrans.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jctrans.o; sourceTree = "<group>"; };
+		AC8407F81AE6671500E93024 /* jdapimin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jdapimin.c; sourceTree = "<group>"; };
+		AC8407F91AE6671500E93024 /* jdapimin.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jdapimin.lo; sourceTree = "<group>"; };
+		AC8407FA1AE6671500E93024 /* jdapimin.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jdapimin.o; sourceTree = "<group>"; };
+		AC8407FB1AE6671500E93024 /* jdapistd.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jdapistd.c; sourceTree = "<group>"; };
+		AC8407FC1AE6671500E93024 /* jdapistd.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jdapistd.lo; sourceTree = "<group>"; };
+		AC8407FD1AE6671500E93024 /* jdapistd.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jdapistd.o; sourceTree = "<group>"; };
+		AC8407FE1AE6671500E93024 /* jdarith.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jdarith.c; sourceTree = "<group>"; };
+		AC8407FF1AE6671500E93024 /* jdarith.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jdarith.lo; sourceTree = "<group>"; };
+		AC8408001AE6671500E93024 /* jdarith.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jdarith.o; sourceTree = "<group>"; };
+		AC8408011AE6671500E93024 /* jdatadst.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jdatadst.c; sourceTree = "<group>"; };
+		AC8408021AE6671500E93024 /* jdatadst.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jdatadst.lo; sourceTree = "<group>"; };
+		AC8408031AE6671500E93024 /* jdatadst.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jdatadst.o; sourceTree = "<group>"; };
+		AC8408041AE6671500E93024 /* jdatasrc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jdatasrc.c; sourceTree = "<group>"; };
+		AC8408051AE6671500E93024 /* jdatasrc.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jdatasrc.lo; sourceTree = "<group>"; };
+		AC8408061AE6671500E93024 /* jdatasrc.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jdatasrc.o; sourceTree = "<group>"; };
+		AC8408071AE6671500E93024 /* jdcoefct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jdcoefct.c; sourceTree = "<group>"; };
+		AC8408081AE6671500E93024 /* jdcoefct.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jdcoefct.lo; sourceTree = "<group>"; };
+		AC8408091AE6671500E93024 /* jdcoefct.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jdcoefct.o; sourceTree = "<group>"; };
+		AC84080A1AE6671500E93024 /* jdcolor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jdcolor.c; sourceTree = "<group>"; };
+		AC84080B1AE6671500E93024 /* jdcolor.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jdcolor.lo; sourceTree = "<group>"; };
+		AC84080C1AE6671500E93024 /* jdcolor.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jdcolor.o; sourceTree = "<group>"; };
+		AC84080D1AE6671500E93024 /* jdct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jdct.h; sourceTree = "<group>"; };
+		AC84080E1AE6671500E93024 /* jddctmgr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jddctmgr.c; sourceTree = "<group>"; };
+		AC84080F1AE6671500E93024 /* jddctmgr.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jddctmgr.lo; sourceTree = "<group>"; };
+		AC8408101AE6671500E93024 /* jddctmgr.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jddctmgr.o; sourceTree = "<group>"; };
+		AC8408111AE6671500E93024 /* jdhuff.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jdhuff.c; sourceTree = "<group>"; };
+		AC8408121AE6671500E93024 /* jdhuff.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jdhuff.lo; sourceTree = "<group>"; };
+		AC8408131AE6671500E93024 /* jdhuff.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jdhuff.o; sourceTree = "<group>"; };
+		AC8408141AE6671500E93024 /* jdinput.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jdinput.c; sourceTree = "<group>"; };
+		AC8408151AE6671500E93024 /* jdinput.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jdinput.lo; sourceTree = "<group>"; };
+		AC8408161AE6671500E93024 /* jdinput.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jdinput.o; sourceTree = "<group>"; };
+		AC8408171AE6671500E93024 /* jdmainct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jdmainct.c; sourceTree = "<group>"; };
+		AC8408181AE6671500E93024 /* jdmainct.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jdmainct.lo; sourceTree = "<group>"; };
+		AC8408191AE6671500E93024 /* jdmainct.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jdmainct.o; sourceTree = "<group>"; };
+		AC84081A1AE6671500E93024 /* jdmarker.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jdmarker.c; sourceTree = "<group>"; };
+		AC84081B1AE6671500E93024 /* jdmarker.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jdmarker.lo; sourceTree = "<group>"; };
+		AC84081C1AE6671500E93024 /* jdmarker.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jdmarker.o; sourceTree = "<group>"; };
+		AC84081D1AE6671500E93024 /* jdmaster.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jdmaster.c; sourceTree = "<group>"; };
+		AC84081E1AE6671500E93024 /* jdmaster.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jdmaster.lo; sourceTree = "<group>"; };
+		AC84081F1AE6671500E93024 /* jdmaster.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jdmaster.o; sourceTree = "<group>"; };
+		AC8408201AE6671500E93024 /* jdmerge.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jdmerge.c; sourceTree = "<group>"; };
+		AC8408211AE6671500E93024 /* jdmerge.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jdmerge.lo; sourceTree = "<group>"; };
+		AC8408221AE6671500E93024 /* jdmerge.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jdmerge.o; sourceTree = "<group>"; };
+		AC8408231AE6671500E93024 /* jdpostct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jdpostct.c; sourceTree = "<group>"; };
+		AC8408241AE6671500E93024 /* jdpostct.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jdpostct.lo; sourceTree = "<group>"; };
+		AC8408251AE6671500E93024 /* jdpostct.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jdpostct.o; sourceTree = "<group>"; };
+		AC8408261AE6671500E93024 /* jdsample.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jdsample.c; sourceTree = "<group>"; };
+		AC8408271AE6671500E93024 /* jdsample.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jdsample.lo; sourceTree = "<group>"; };
+		AC8408281AE6671500E93024 /* jdsample.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jdsample.o; sourceTree = "<group>"; };
+		AC8408291AE6671500E93024 /* jdtrans.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jdtrans.c; sourceTree = "<group>"; };
+		AC84082A1AE6671500E93024 /* jdtrans.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jdtrans.lo; sourceTree = "<group>"; };
+		AC84082B1AE6671500E93024 /* jdtrans.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jdtrans.o; sourceTree = "<group>"; };
+		AC84082C1AE6671500E93024 /* jerror.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jerror.c; sourceTree = "<group>"; };
+		AC84082D1AE6671500E93024 /* jerror.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jerror.h; sourceTree = "<group>"; };
+		AC84082E1AE6671500E93024 /* jerror.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jerror.lo; sourceTree = "<group>"; };
+		AC84082F1AE6671500E93024 /* jerror.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jerror.o; sourceTree = "<group>"; };
+		AC8408301AE6671500E93024 /* jfdctflt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jfdctflt.c; sourceTree = "<group>"; };
+		AC8408311AE6671500E93024 /* jfdctflt.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jfdctflt.lo; sourceTree = "<group>"; };
+		AC8408321AE6671500E93024 /* jfdctflt.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jfdctflt.o; sourceTree = "<group>"; };
+		AC8408331AE6671500E93024 /* jfdctfst.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jfdctfst.c; sourceTree = "<group>"; };
+		AC8408341AE6671500E93024 /* jfdctfst.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jfdctfst.lo; sourceTree = "<group>"; };
+		AC8408351AE6671500E93024 /* jfdctfst.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jfdctfst.o; sourceTree = "<group>"; };
+		AC8408361AE6671500E93024 /* jfdctint.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jfdctint.c; sourceTree = "<group>"; };
+		AC8408371AE6671500E93024 /* jfdctint.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jfdctint.lo; sourceTree = "<group>"; };
+		AC8408381AE6671500E93024 /* jfdctint.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jfdctint.o; sourceTree = "<group>"; };
+		AC8408391AE6671500E93024 /* jidctflt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jidctflt.c; sourceTree = "<group>"; };
+		AC84083A1AE6671500E93024 /* jidctflt.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jidctflt.lo; sourceTree = "<group>"; };
+		AC84083B1AE6671500E93024 /* jidctflt.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jidctflt.o; sourceTree = "<group>"; };
+		AC84083C1AE6671500E93024 /* jidctfst.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jidctfst.c; sourceTree = "<group>"; };
+		AC84083D1AE6671500E93024 /* jidctfst.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jidctfst.lo; sourceTree = "<group>"; };
+		AC84083E1AE6671500E93024 /* jidctfst.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jidctfst.o; sourceTree = "<group>"; };
+		AC84083F1AE6671500E93024 /* jidctint.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jidctint.c; sourceTree = "<group>"; };
+		AC8408401AE6671500E93024 /* jidctint.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jidctint.lo; sourceTree = "<group>"; };
+		AC8408411AE6671500E93024 /* jidctint.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jidctint.o; sourceTree = "<group>"; };
+		AC8408421AE6671500E93024 /* jinclude.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jinclude.h; sourceTree = "<group>"; };
+		AC8408431AE6671500E93024 /* jmemansi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jmemansi.c; sourceTree = "<group>"; };
+		AC8408441AE6671500E93024 /* jmemdos.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jmemdos.c; sourceTree = "<group>"; };
+		AC8408451AE6671500E93024 /* jmemdosa.asm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm.asm; path = jmemdosa.asm; sourceTree = "<group>"; };
+		AC8408461AE6671500E93024 /* jmemmac.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jmemmac.c; sourceTree = "<group>"; };
+		AC8408471AE6671500E93024 /* jmemmgr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jmemmgr.c; sourceTree = "<group>"; };
+		AC8408481AE6671500E93024 /* jmemmgr.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jmemmgr.lo; sourceTree = "<group>"; };
+		AC8408491AE6671500E93024 /* jmemmgr.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jmemmgr.o; sourceTree = "<group>"; };
+		AC84084A1AE6671500E93024 /* jmemname.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jmemname.c; sourceTree = "<group>"; };
+		AC84084B1AE6671500E93024 /* jmemnobs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jmemnobs.c; sourceTree = "<group>"; };
+		AC84084C1AE6671500E93024 /* jmemnobs.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jmemnobs.lo; sourceTree = "<group>"; };
+		AC84084D1AE6671500E93024 /* jmemnobs.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jmemnobs.o; sourceTree = "<group>"; };
+		AC84084E1AE6671500E93024 /* jmemsys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jmemsys.h; sourceTree = "<group>"; };
+		AC84084F1AE6671500E93024 /* jmorecfg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jmorecfg.h; sourceTree = "<group>"; };
+		AC8408501AE6671500E93024 /* jpeg-9a 2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "jpeg-9a 2.xcodeproj"; sourceTree = "<group>"; };
+		AC8408531AE6671500E93024 /* jpeg-9a.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "jpeg-9a.xcodeproj"; sourceTree = "<group>"; };
+		AC8408561AE6671500E93024 /* jpegint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jpegint.h; sourceTree = "<group>"; };
+		AC8408571AE6671500E93024 /* jpeglib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jpeglib.h; sourceTree = "<group>"; };
+		AC8408581AE6671500E93024 /* jpegtran */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = jpegtran; sourceTree = "<group>"; };
+		AC8408591AE6671500E93024 /* jpegtran.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = jpegtran.1; sourceTree = "<group>"; };
+		AC84085A1AE6671500E93024 /* jpegtran.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jpegtran.c; sourceTree = "<group>"; };
+		AC84085B1AE6671500E93024 /* jpegtran.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jpegtran.o; sourceTree = "<group>"; };
+		AC84085C1AE6671500E93024 /* jquant1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jquant1.c; sourceTree = "<group>"; };
+		AC84085D1AE6671500E93024 /* jquant1.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jquant1.lo; sourceTree = "<group>"; };
+		AC84085E1AE6671500E93024 /* jquant1.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jquant1.o; sourceTree = "<group>"; };
+		AC84085F1AE6671500E93024 /* jquant2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jquant2.c; sourceTree = "<group>"; };
+		AC8408601AE6671500E93024 /* jquant2.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jquant2.lo; sourceTree = "<group>"; };
+		AC8408611AE6671500E93024 /* jquant2.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jquant2.o; sourceTree = "<group>"; };
+		AC8408621AE6671500E93024 /* jutils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jutils.c; sourceTree = "<group>"; };
+		AC8408631AE6671500E93024 /* jutils.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = jutils.lo; sourceTree = "<group>"; };
+		AC8408641AE6671500E93024 /* jutils.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jutils.o; sourceTree = "<group>"; };
+		AC8408651AE6671500E93024 /* jversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jversion.h; sourceTree = "<group>"; };
+		AC8408661AE6671500E93024 /* libjpeg.la */ = {isa = PBXFileReference; lastKnownFileType = text; path = libjpeg.la; sourceTree = "<group>"; };
+		AC8408671AE6671500E93024 /* libjpeg.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = libjpeg.map; sourceTree = "<group>"; };
+		AC8408681AE6671500E93024 /* libjpeg.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = libjpeg.txt; sourceTree = "<group>"; };
+		AC8408691AE6671500E93024 /* libtool */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = libtool; sourceTree = "<group>"; };
+		AC84086A1AE6671500E93024 /* ltmain.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ltmain.sh; sourceTree = "<group>"; };
+		AC84086B1AE6671500E93024 /* makcjpeg.st */ = {isa = PBXFileReference; lastKnownFileType = text; path = makcjpeg.st; sourceTree = "<group>"; };
+		AC84086C1AE6671500E93024 /* makdjpeg.st */ = {isa = PBXFileReference; lastKnownFileType = text; path = makdjpeg.st; sourceTree = "<group>"; };
+		AC84086D1AE6671500E93024 /* makeadsw.vc6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makeadsw.vc6; sourceTree = "<group>"; };
+		AC84086E1AE6671500E93024 /* makeasln.v10 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makeasln.v10; sourceTree = "<group>"; };
+		AC84086F1AE6671500E93024 /* makecdep.vc6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makecdep.vc6; sourceTree = "<group>"; };
+		AC8408701AE6671500E93024 /* makecdsp.vc6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makecdsp.vc6; sourceTree = "<group>"; };
+		AC8408711AE6671500E93024 /* makecfil.v10 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makecfil.v10; sourceTree = "<group>"; };
+		AC8408721AE6671500E93024 /* makecmak.vc6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makecmak.vc6; sourceTree = "<group>"; };
+		AC8408731AE6671500E93024 /* makecvcx.v10 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makecvcx.v10; sourceTree = "<group>"; };
+		AC8408741AE6671500E93024 /* makeddep.vc6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makeddep.vc6; sourceTree = "<group>"; };
+		AC8408751AE6671500E93024 /* makeddsp.vc6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makeddsp.vc6; sourceTree = "<group>"; };
+		AC8408761AE6671500E93024 /* makedfil.v10 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makedfil.v10; sourceTree = "<group>"; };
+		AC8408771AE6671500E93024 /* makedmak.vc6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makedmak.vc6; sourceTree = "<group>"; };
+		AC8408781AE6671500E93024 /* makedvcx.v10 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makedvcx.v10; sourceTree = "<group>"; };
+		AC8408791AE6671500E93024 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		AC84087A1AE6671600E93024 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		AC84087B1AE6671600E93024 /* makefile.ansi */ = {isa = PBXFileReference; lastKnownFileType = text; path = makefile.ansi; sourceTree = "<group>"; };
+		AC84087C1AE6671600E93024 /* makefile.bcc */ = {isa = PBXFileReference; lastKnownFileType = text; path = makefile.bcc; sourceTree = "<group>"; };
+		AC84087D1AE6671600E93024 /* makefile.dj */ = {isa = PBXFileReference; lastKnownFileType = text; path = makefile.dj; sourceTree = "<group>"; };
+		AC84087E1AE6671600E93024 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		AC84087F1AE6671600E93024 /* makefile.manx */ = {isa = PBXFileReference; lastKnownFileType = text; path = makefile.manx; sourceTree = "<group>"; };
+		AC8408801AE6671600E93024 /* makefile.mc6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makefile.mc6; sourceTree = "<group>"; };
+		AC8408811AE6671600E93024 /* makefile.mms */ = {isa = PBXFileReference; lastKnownFileType = text; path = makefile.mms; sourceTree = "<group>"; };
+		AC8408821AE6671600E93024 /* makefile.sas */ = {isa = PBXFileReference; lastKnownFileType = text; path = makefile.sas; sourceTree = "<group>"; };
+		AC8408831AE6671600E93024 /* makefile.unix */ = {isa = PBXFileReference; lastKnownFileType = text; path = makefile.unix; sourceTree = "<group>"; };
+		AC8408841AE6671600E93024 /* makefile.vc */ = {isa = PBXFileReference; lastKnownFileType = text; path = makefile.vc; sourceTree = "<group>"; };
+		AC8408851AE6671600E93024 /* makefile.vms */ = {isa = PBXFileReference; lastKnownFileType = text; path = makefile.vms; sourceTree = "<group>"; };
+		AC8408861AE6671600E93024 /* makefile.wat */ = {isa = PBXFileReference; lastKnownFileType = text; path = makefile.wat; sourceTree = "<group>"; };
+		AC8408871AE6671600E93024 /* makejdep.vc6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makejdep.vc6; sourceTree = "<group>"; };
+		AC8408881AE6671600E93024 /* makejdsp.vc6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makejdsp.vc6; sourceTree = "<group>"; };
+		AC8408891AE6671600E93024 /* makejdsw.vc6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makejdsw.vc6; sourceTree = "<group>"; };
+		AC84088A1AE6671600E93024 /* makejfil.v10 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makejfil.v10; sourceTree = "<group>"; };
+		AC84088B1AE6671600E93024 /* makejmak.vc6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makejmak.vc6; sourceTree = "<group>"; };
+		AC84088C1AE6671600E93024 /* makejsln.v10 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makejsln.v10; sourceTree = "<group>"; };
+		AC84088D1AE6671600E93024 /* makejvcx.v10 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makejvcx.v10; sourceTree = "<group>"; };
+		AC84088E1AE6671600E93024 /* makeproj.mac */ = {isa = PBXFileReference; lastKnownFileType = text; path = makeproj.mac; sourceTree = "<group>"; };
+		AC84088F1AE6671600E93024 /* makerdep.vc6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makerdep.vc6; sourceTree = "<group>"; };
+		AC8408901AE6671600E93024 /* makerdsp.vc6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makerdsp.vc6; sourceTree = "<group>"; };
+		AC8408911AE6671600E93024 /* makerfil.v10 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makerfil.v10; sourceTree = "<group>"; };
+		AC8408921AE6671600E93024 /* makermak.vc6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makermak.vc6; sourceTree = "<group>"; };
+		AC8408931AE6671600E93024 /* makervcx.v10 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makervcx.v10; sourceTree = "<group>"; };
+		AC8408941AE6671600E93024 /* maketdep.vc6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = maketdep.vc6; sourceTree = "<group>"; };
+		AC8408951AE6671600E93024 /* maketdsp.vc6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = maketdsp.vc6; sourceTree = "<group>"; };
+		AC8408961AE6671600E93024 /* maketfil.v10 */ = {isa = PBXFileReference; lastKnownFileType = text; path = maketfil.v10; sourceTree = "<group>"; };
+		AC8408971AE6671600E93024 /* maketmak.vc6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = maketmak.vc6; sourceTree = "<group>"; };
+		AC8408981AE6671600E93024 /* maketvcx.v10 */ = {isa = PBXFileReference; lastKnownFileType = text; path = maketvcx.v10; sourceTree = "<group>"; };
+		AC8408991AE6671600E93024 /* makewdep.vc6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makewdep.vc6; sourceTree = "<group>"; };
+		AC84089A1AE6671600E93024 /* makewdsp.vc6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makewdsp.vc6; sourceTree = "<group>"; };
+		AC84089B1AE6671600E93024 /* makewfil.v10 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makewfil.v10; sourceTree = "<group>"; };
+		AC84089C1AE6671600E93024 /* makewmak.vc6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makewmak.vc6; sourceTree = "<group>"; };
+		AC84089D1AE6671600E93024 /* makewvcx.v10 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makewvcx.v10; sourceTree = "<group>"; };
+		AC84089E1AE6671600E93024 /* makljpeg.st */ = {isa = PBXFileReference; lastKnownFileType = text; path = makljpeg.st; sourceTree = "<group>"; };
+		AC84089F1AE6671600E93024 /* maktjpeg.st */ = {isa = PBXFileReference; lastKnownFileType = text; path = maktjpeg.st; sourceTree = "<group>"; };
+		AC8408A01AE6671600E93024 /* makvms.opt */ = {isa = PBXFileReference; lastKnownFileType = text; path = makvms.opt; sourceTree = "<group>"; };
+		AC8408A11AE6671600E93024 /* missing */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = missing; sourceTree = "<group>"; };
+		AC8408A21AE6671600E93024 /* rdbmp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rdbmp.c; sourceTree = "<group>"; };
+		AC8408A31AE6671600E93024 /* rdbmp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = rdbmp.o; sourceTree = "<group>"; };
+		AC8408A41AE6671600E93024 /* rdcolmap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rdcolmap.c; sourceTree = "<group>"; };
+		AC8408A51AE6671600E93024 /* rdcolmap.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = rdcolmap.o; sourceTree = "<group>"; };
+		AC8408A61AE6671600E93024 /* rdgif.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rdgif.c; sourceTree = "<group>"; };
+		AC8408A71AE6671600E93024 /* rdgif.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = rdgif.o; sourceTree = "<group>"; };
+		AC8408A81AE6671600E93024 /* rdjpgcom */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = rdjpgcom; sourceTree = "<group>"; };
+		AC8408A91AE6671600E93024 /* rdjpgcom.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = rdjpgcom.1; sourceTree = "<group>"; };
+		AC8408AA1AE6671600E93024 /* rdjpgcom.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rdjpgcom.c; sourceTree = "<group>"; };
+		AC8408AB1AE6671600E93024 /* rdjpgcom.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = rdjpgcom.o; sourceTree = "<group>"; };
+		AC8408AC1AE6671600E93024 /* rdppm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rdppm.c; sourceTree = "<group>"; };
+		AC8408AD1AE6671600E93024 /* rdppm.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = rdppm.o; sourceTree = "<group>"; };
+		AC8408AE1AE6671600E93024 /* rdrle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rdrle.c; sourceTree = "<group>"; };
+		AC8408AF1AE6671600E93024 /* rdrle.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = rdrle.o; sourceTree = "<group>"; };
+		AC8408B01AE6671600E93024 /* rdswitch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rdswitch.c; sourceTree = "<group>"; };
+		AC8408B11AE6671600E93024 /* rdswitch.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = rdswitch.o; sourceTree = "<group>"; };
+		AC8408B21AE6671600E93024 /* rdtarga.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rdtarga.c; sourceTree = "<group>"; };
+		AC8408B31AE6671600E93024 /* rdtarga.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = rdtarga.o; sourceTree = "<group>"; };
+		AC8408B41AE6671600E93024 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		AC8408B51AE6671600E93024 /* stamp-h1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "stamp-h1"; sourceTree = "<group>"; };
+		AC8408B61AE6671600E93024 /* structure.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = structure.txt; sourceTree = "<group>"; };
+		AC8408B71AE6671600E93024 /* testimg.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = testimg.bmp; sourceTree = "<group>"; };
+		AC8408B81AE6671600E93024 /* testimg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testimg.jpg; sourceTree = "<group>"; };
+		AC8408B91AE6671600E93024 /* testimg.ppm */ = {isa = PBXFileReference; lastKnownFileType = text; path = testimg.ppm; sourceTree = "<group>"; };
+		AC8408BA1AE6671600E93024 /* testimgp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testimgp.jpg; sourceTree = "<group>"; };
+		AC8408BB1AE6671600E93024 /* testorig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testorig.jpg; sourceTree = "<group>"; };
+		AC8408BC1AE6671600E93024 /* testprog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testprog.jpg; sourceTree = "<group>"; };
+		AC8408BD1AE6671600E93024 /* transupp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = transupp.c; sourceTree = "<group>"; };
+		AC8408BE1AE6671600E93024 /* transupp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = transupp.h; sourceTree = "<group>"; };
+		AC8408BF1AE6671600E93024 /* transupp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = transupp.o; sourceTree = "<group>"; };
+		AC8408C01AE6671600E93024 /* usage.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = usage.txt; sourceTree = "<group>"; };
+		AC8408C11AE6671600E93024 /* wizard.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = wizard.txt; sourceTree = "<group>"; };
+		AC8408C21AE6671600E93024 /* wrbmp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wrbmp.c; sourceTree = "<group>"; };
+		AC8408C31AE6671600E93024 /* wrbmp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = wrbmp.o; sourceTree = "<group>"; };
+		AC8408C41AE6671600E93024 /* wrgif.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wrgif.c; sourceTree = "<group>"; };
+		AC8408C51AE6671600E93024 /* wrgif.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = wrgif.o; sourceTree = "<group>"; };
+		AC8408C61AE6671600E93024 /* wrjpgcom */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = wrjpgcom; sourceTree = "<group>"; };
+		AC8408C71AE6671600E93024 /* wrjpgcom.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = wrjpgcom.1; sourceTree = "<group>"; };
+		AC8408C81AE6671600E93024 /* wrjpgcom.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wrjpgcom.c; sourceTree = "<group>"; };
+		AC8408C91AE6671600E93024 /* wrjpgcom.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = wrjpgcom.o; sourceTree = "<group>"; };
+		AC8408CA1AE6671600E93024 /* wrppm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wrppm.c; sourceTree = "<group>"; };
+		AC8408CB1AE6671600E93024 /* wrppm.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = wrppm.o; sourceTree = "<group>"; };
+		AC8408CC1AE6671600E93024 /* wrrle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wrrle.c; sourceTree = "<group>"; };
+		AC8408CD1AE6671600E93024 /* wrrle.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = wrrle.o; sourceTree = "<group>"; };
+		AC8408CE1AE6671600E93024 /* wrtarga.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wrtarga.c; sourceTree = "<group>"; };
+		AC8408CF1AE6671600E93024 /* wrtarga.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = wrtarga.o; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		AC8407921AE6671500E93024 = {
+			isa = PBXGroup;
+			children = (
+				AC8407981AE6671500E93024 /* .deps */,
+				AC8407991AE6671500E93024 /* .DS_Store */,
+				AC84079A1AE6671500E93024 /* .libs */,
+				AC84079B1AE6671500E93024 /* aclocal.m4 */,
+				AC84079C1AE6671500E93024 /* ar-lib */,
+				AC84079D1AE6671500E93024 /* cderror.h */,
+				AC84079E1AE6671500E93024 /* cdjpeg.c */,
+				AC84079F1AE6671500E93024 /* cdjpeg.h */,
+				AC8407A01AE6671500E93024 /* cdjpeg.o */,
+				AC8407A11AE6671500E93024 /* change.log */,
+				AC8407A21AE6671500E93024 /* cjpeg */,
+				AC8407A31AE6671500E93024 /* cjpeg.1 */,
+				AC8407A41AE6671500E93024 /* cjpeg.c */,
+				AC8407A51AE6671500E93024 /* cjpeg.o */,
+				AC8407A61AE6671500E93024 /* ckconfig.c */,
+				AC8407A71AE6671500E93024 /* coderules.txt */,
+				AC8407A81AE6671500E93024 /* compile */,
+				AC8407A91AE6671500E93024 /* config.guess */,
+				AC8407AA1AE6671500E93024 /* config.log */,
+				AC8407AB1AE6671500E93024 /* config.status */,
+				AC8407AC1AE6671500E93024 /* config.sub */,
+				AC8407AD1AE6671500E93024 /* configure */,
+				AC8407AE1AE6671500E93024 /* configure.ac */,
+				AC8407AF1AE6671500E93024 /* depcomp */,
+				AC8407B01AE6671500E93024 /* djpeg */,
+				AC8407B11AE6671500E93024 /* djpeg.1 */,
+				AC8407B21AE6671500E93024 /* djpeg.c */,
+				AC8407B31AE6671500E93024 /* djpeg.o */,
+				AC8407B41AE6671500E93024 /* example.c */,
+				AC8407B51AE6671500E93024 /* filelist.txt */,
+				AC8407B61AE6671500E93024 /* install-sh */,
+				AC8407B71AE6671500E93024 /* install.txt */,
+				AC8407B81AE6671500E93024 /* jaricom.c */,
+				AC8407B91AE6671500E93024 /* jaricom.lo */,
+				AC8407BA1AE6671500E93024 /* jaricom.o */,
+				AC8407BB1AE6671500E93024 /* jcapimin.c */,
+				AC8407BC1AE6671500E93024 /* jcapimin.lo */,
+				AC8407BD1AE6671500E93024 /* jcapimin.o */,
+				AC8407BE1AE6671500E93024 /* jcapistd.c */,
+				AC8407BF1AE6671500E93024 /* jcapistd.lo */,
+				AC8407C01AE6671500E93024 /* jcapistd.o */,
+				AC8407C11AE6671500E93024 /* jcarith.c */,
+				AC8407C21AE6671500E93024 /* jcarith.lo */,
+				AC8407C31AE6671500E93024 /* jcarith.o */,
+				AC8407C41AE6671500E93024 /* jccoefct.c */,
+				AC8407C51AE6671500E93024 /* jccoefct.lo */,
+				AC8407C61AE6671500E93024 /* jccoefct.o */,
+				AC8407C71AE6671500E93024 /* jccolor.c */,
+				AC8407C81AE6671500E93024 /* jccolor.lo */,
+				AC8407C91AE6671500E93024 /* jccolor.o */,
+				AC8407CA1AE6671500E93024 /* jcdctmgr.c */,
+				AC8407CB1AE6671500E93024 /* jcdctmgr.lo */,
+				AC8407CC1AE6671500E93024 /* jcdctmgr.o */,
+				AC8407CD1AE6671500E93024 /* jchuff.c */,
+				AC8407CE1AE6671500E93024 /* jchuff.lo */,
+				AC8407CF1AE6671500E93024 /* jchuff.o */,
+				AC8407D01AE6671500E93024 /* jcinit.c */,
+				AC8407D11AE6671500E93024 /* jcinit.lo */,
+				AC8407D21AE6671500E93024 /* jcinit.o */,
+				AC8407D31AE6671500E93024 /* jcmainct.c */,
+				AC8407D41AE6671500E93024 /* jcmainct.lo */,
+				AC8407D51AE6671500E93024 /* jcmainct.o */,
+				AC8407D61AE6671500E93024 /* jcmarker.c */,
+				AC8407D71AE6671500E93024 /* jcmarker.lo */,
+				AC8407D81AE6671500E93024 /* jcmarker.o */,
+				AC8407D91AE6671500E93024 /* jcmaster.c */,
+				AC8407DA1AE6671500E93024 /* jcmaster.lo */,
+				AC8407DB1AE6671500E93024 /* jcmaster.o */,
+				AC8407DC1AE6671500E93024 /* jcomapi.c */,
+				AC8407DD1AE6671500E93024 /* jcomapi.lo */,
+				AC8407DE1AE6671500E93024 /* jcomapi.o */,
+				AC8407DF1AE6671500E93024 /* jconfig.bcc */,
+				AC8407E01AE6671500E93024 /* jconfig.cfg */,
+				AC8407E11AE6671500E93024 /* jconfig.dj */,
+				AC8407E21AE6671500E93024 /* jconfig.h */,
+				AC8407E31AE6671500E93024 /* jconfig.mac */,
+				AC8407E41AE6671500E93024 /* jconfig.manx */,
+				AC8407E51AE6671500E93024 /* jconfig.mc6 */,
+				AC8407E61AE6671500E93024 /* jconfig.sas */,
+				AC8407E71AE6671500E93024 /* jconfig.st */,
+				AC8407E81AE6671500E93024 /* jconfig.txt */,
+				AC8407E91AE6671500E93024 /* jconfig.vc */,
+				AC8407EA1AE6671500E93024 /* jconfig.vms */,
+				AC8407EB1AE6671500E93024 /* jconfig.wat */,
+				AC8407EC1AE6671500E93024 /* jcparam.c */,
+				AC8407ED1AE6671500E93024 /* jcparam.lo */,
+				AC8407EE1AE6671500E93024 /* jcparam.o */,
+				AC8407EF1AE6671500E93024 /* jcprepct.c */,
+				AC8407F01AE6671500E93024 /* jcprepct.lo */,
+				AC8407F11AE6671500E93024 /* jcprepct.o */,
+				AC8407F21AE6671500E93024 /* jcsample.c */,
+				AC8407F31AE6671500E93024 /* jcsample.lo */,
+				AC8407F41AE6671500E93024 /* jcsample.o */,
+				AC8407F51AE6671500E93024 /* jctrans.c */,
+				AC8407F61AE6671500E93024 /* jctrans.lo */,
+				AC8407F71AE6671500E93024 /* jctrans.o */,
+				AC8407F81AE6671500E93024 /* jdapimin.c */,
+				AC8407F91AE6671500E93024 /* jdapimin.lo */,
+				AC8407FA1AE6671500E93024 /* jdapimin.o */,
+				AC8407FB1AE6671500E93024 /* jdapistd.c */,
+				AC8407FC1AE6671500E93024 /* jdapistd.lo */,
+				AC8407FD1AE6671500E93024 /* jdapistd.o */,
+				AC8407FE1AE6671500E93024 /* jdarith.c */,
+				AC8407FF1AE6671500E93024 /* jdarith.lo */,
+				AC8408001AE6671500E93024 /* jdarith.o */,
+				AC8408011AE6671500E93024 /* jdatadst.c */,
+				AC8408021AE6671500E93024 /* jdatadst.lo */,
+				AC8408031AE6671500E93024 /* jdatadst.o */,
+				AC8408041AE6671500E93024 /* jdatasrc.c */,
+				AC8408051AE6671500E93024 /* jdatasrc.lo */,
+				AC8408061AE6671500E93024 /* jdatasrc.o */,
+				AC8408071AE6671500E93024 /* jdcoefct.c */,
+				AC8408081AE6671500E93024 /* jdcoefct.lo */,
+				AC8408091AE6671500E93024 /* jdcoefct.o */,
+				AC84080A1AE6671500E93024 /* jdcolor.c */,
+				AC84080B1AE6671500E93024 /* jdcolor.lo */,
+				AC84080C1AE6671500E93024 /* jdcolor.o */,
+				AC84080D1AE6671500E93024 /* jdct.h */,
+				AC84080E1AE6671500E93024 /* jddctmgr.c */,
+				AC84080F1AE6671500E93024 /* jddctmgr.lo */,
+				AC8408101AE6671500E93024 /* jddctmgr.o */,
+				AC8408111AE6671500E93024 /* jdhuff.c */,
+				AC8408121AE6671500E93024 /* jdhuff.lo */,
+				AC8408131AE6671500E93024 /* jdhuff.o */,
+				AC8408141AE6671500E93024 /* jdinput.c */,
+				AC8408151AE6671500E93024 /* jdinput.lo */,
+				AC8408161AE6671500E93024 /* jdinput.o */,
+				AC8408171AE6671500E93024 /* jdmainct.c */,
+				AC8408181AE6671500E93024 /* jdmainct.lo */,
+				AC8408191AE6671500E93024 /* jdmainct.o */,
+				AC84081A1AE6671500E93024 /* jdmarker.c */,
+				AC84081B1AE6671500E93024 /* jdmarker.lo */,
+				AC84081C1AE6671500E93024 /* jdmarker.o */,
+				AC84081D1AE6671500E93024 /* jdmaster.c */,
+				AC84081E1AE6671500E93024 /* jdmaster.lo */,
+				AC84081F1AE6671500E93024 /* jdmaster.o */,
+				AC8408201AE6671500E93024 /* jdmerge.c */,
+				AC8408211AE6671500E93024 /* jdmerge.lo */,
+				AC8408221AE6671500E93024 /* jdmerge.o */,
+				AC8408231AE6671500E93024 /* jdpostct.c */,
+				AC8408241AE6671500E93024 /* jdpostct.lo */,
+				AC8408251AE6671500E93024 /* jdpostct.o */,
+				AC8408261AE6671500E93024 /* jdsample.c */,
+				AC8408271AE6671500E93024 /* jdsample.lo */,
+				AC8408281AE6671500E93024 /* jdsample.o */,
+				AC8408291AE6671500E93024 /* jdtrans.c */,
+				AC84082A1AE6671500E93024 /* jdtrans.lo */,
+				AC84082B1AE6671500E93024 /* jdtrans.o */,
+				AC84082C1AE6671500E93024 /* jerror.c */,
+				AC84082D1AE6671500E93024 /* jerror.h */,
+				AC84082E1AE6671500E93024 /* jerror.lo */,
+				AC84082F1AE6671500E93024 /* jerror.o */,
+				AC8408301AE6671500E93024 /* jfdctflt.c */,
+				AC8408311AE6671500E93024 /* jfdctflt.lo */,
+				AC8408321AE6671500E93024 /* jfdctflt.o */,
+				AC8408331AE6671500E93024 /* jfdctfst.c */,
+				AC8408341AE6671500E93024 /* jfdctfst.lo */,
+				AC8408351AE6671500E93024 /* jfdctfst.o */,
+				AC8408361AE6671500E93024 /* jfdctint.c */,
+				AC8408371AE6671500E93024 /* jfdctint.lo */,
+				AC8408381AE6671500E93024 /* jfdctint.o */,
+				AC8408391AE6671500E93024 /* jidctflt.c */,
+				AC84083A1AE6671500E93024 /* jidctflt.lo */,
+				AC84083B1AE6671500E93024 /* jidctflt.o */,
+				AC84083C1AE6671500E93024 /* jidctfst.c */,
+				AC84083D1AE6671500E93024 /* jidctfst.lo */,
+				AC84083E1AE6671500E93024 /* jidctfst.o */,
+				AC84083F1AE6671500E93024 /* jidctint.c */,
+				AC8408401AE6671500E93024 /* jidctint.lo */,
+				AC8408411AE6671500E93024 /* jidctint.o */,
+				AC8408421AE6671500E93024 /* jinclude.h */,
+				AC8408431AE6671500E93024 /* jmemansi.c */,
+				AC8408441AE6671500E93024 /* jmemdos.c */,
+				AC8408451AE6671500E93024 /* jmemdosa.asm */,
+				AC8408461AE6671500E93024 /* jmemmac.c */,
+				AC8408471AE6671500E93024 /* jmemmgr.c */,
+				AC8408481AE6671500E93024 /* jmemmgr.lo */,
+				AC8408491AE6671500E93024 /* jmemmgr.o */,
+				AC84084A1AE6671500E93024 /* jmemname.c */,
+				AC84084B1AE6671500E93024 /* jmemnobs.c */,
+				AC84084C1AE6671500E93024 /* jmemnobs.lo */,
+				AC84084D1AE6671500E93024 /* jmemnobs.o */,
+				AC84084E1AE6671500E93024 /* jmemsys.h */,
+				AC84084F1AE6671500E93024 /* jmorecfg.h */,
+				AC8408501AE6671500E93024 /* jpeg-9a 2.xcodeproj */,
+				AC8408531AE6671500E93024 /* jpeg-9a.xcodeproj */,
+				AC8408561AE6671500E93024 /* jpegint.h */,
+				AC8408571AE6671500E93024 /* jpeglib.h */,
+				AC8408581AE6671500E93024 /* jpegtran */,
+				AC8408591AE6671500E93024 /* jpegtran.1 */,
+				AC84085A1AE6671500E93024 /* jpegtran.c */,
+				AC84085B1AE6671500E93024 /* jpegtran.o */,
+				AC84085C1AE6671500E93024 /* jquant1.c */,
+				AC84085D1AE6671500E93024 /* jquant1.lo */,
+				AC84085E1AE6671500E93024 /* jquant1.o */,
+				AC84085F1AE6671500E93024 /* jquant2.c */,
+				AC8408601AE6671500E93024 /* jquant2.lo */,
+				AC8408611AE6671500E93024 /* jquant2.o */,
+				AC8408621AE6671500E93024 /* jutils.c */,
+				AC8408631AE6671500E93024 /* jutils.lo */,
+				AC8408641AE6671500E93024 /* jutils.o */,
+				AC8408651AE6671500E93024 /* jversion.h */,
+				AC8408661AE6671500E93024 /* libjpeg.la */,
+				AC8408671AE6671500E93024 /* libjpeg.map */,
+				AC8408681AE6671500E93024 /* libjpeg.txt */,
+				AC8408691AE6671500E93024 /* libtool */,
+				AC84086A1AE6671500E93024 /* ltmain.sh */,
+				AC84086B1AE6671500E93024 /* makcjpeg.st */,
+				AC84086C1AE6671500E93024 /* makdjpeg.st */,
+				AC84086D1AE6671500E93024 /* makeadsw.vc6 */,
+				AC84086E1AE6671500E93024 /* makeasln.v10 */,
+				AC84086F1AE6671500E93024 /* makecdep.vc6 */,
+				AC8408701AE6671500E93024 /* makecdsp.vc6 */,
+				AC8408711AE6671500E93024 /* makecfil.v10 */,
+				AC8408721AE6671500E93024 /* makecmak.vc6 */,
+				AC8408731AE6671500E93024 /* makecvcx.v10 */,
+				AC8408741AE6671500E93024 /* makeddep.vc6 */,
+				AC8408751AE6671500E93024 /* makeddsp.vc6 */,
+				AC8408761AE6671500E93024 /* makedfil.v10 */,
+				AC8408771AE6671500E93024 /* makedmak.vc6 */,
+				AC8408781AE6671500E93024 /* makedvcx.v10 */,
+				AC8408791AE6671500E93024 /* Makefile */,
+				AC84087A1AE6671600E93024 /* Makefile.am */,
+				AC84087B1AE6671600E93024 /* makefile.ansi */,
+				AC84087C1AE6671600E93024 /* makefile.bcc */,
+				AC84087D1AE6671600E93024 /* makefile.dj */,
+				AC84087E1AE6671600E93024 /* Makefile.in */,
+				AC84087F1AE6671600E93024 /* makefile.manx */,
+				AC8408801AE6671600E93024 /* makefile.mc6 */,
+				AC8408811AE6671600E93024 /* makefile.mms */,
+				AC8408821AE6671600E93024 /* makefile.sas */,
+				AC8408831AE6671600E93024 /* makefile.unix */,
+				AC8408841AE6671600E93024 /* makefile.vc */,
+				AC8408851AE6671600E93024 /* makefile.vms */,
+				AC8408861AE6671600E93024 /* makefile.wat */,
+				AC8408871AE6671600E93024 /* makejdep.vc6 */,
+				AC8408881AE6671600E93024 /* makejdsp.vc6 */,
+				AC8408891AE6671600E93024 /* makejdsw.vc6 */,
+				AC84088A1AE6671600E93024 /* makejfil.v10 */,
+				AC84088B1AE6671600E93024 /* makejmak.vc6 */,
+				AC84088C1AE6671600E93024 /* makejsln.v10 */,
+				AC84088D1AE6671600E93024 /* makejvcx.v10 */,
+				AC84088E1AE6671600E93024 /* makeproj.mac */,
+				AC84088F1AE6671600E93024 /* makerdep.vc6 */,
+				AC8408901AE6671600E93024 /* makerdsp.vc6 */,
+				AC8408911AE6671600E93024 /* makerfil.v10 */,
+				AC8408921AE6671600E93024 /* makermak.vc6 */,
+				AC8408931AE6671600E93024 /* makervcx.v10 */,
+				AC8408941AE6671600E93024 /* maketdep.vc6 */,
+				AC8408951AE6671600E93024 /* maketdsp.vc6 */,
+				AC8408961AE6671600E93024 /* maketfil.v10 */,
+				AC8408971AE6671600E93024 /* maketmak.vc6 */,
+				AC8408981AE6671600E93024 /* maketvcx.v10 */,
+				AC8408991AE6671600E93024 /* makewdep.vc6 */,
+				AC84089A1AE6671600E93024 /* makewdsp.vc6 */,
+				AC84089B1AE6671600E93024 /* makewfil.v10 */,
+				AC84089C1AE6671600E93024 /* makewmak.vc6 */,
+				AC84089D1AE6671600E93024 /* makewvcx.v10 */,
+				AC84089E1AE6671600E93024 /* makljpeg.st */,
+				AC84089F1AE6671600E93024 /* maktjpeg.st */,
+				AC8408A01AE6671600E93024 /* makvms.opt */,
+				AC8408A11AE6671600E93024 /* missing */,
+				AC8408A21AE6671600E93024 /* rdbmp.c */,
+				AC8408A31AE6671600E93024 /* rdbmp.o */,
+				AC8408A41AE6671600E93024 /* rdcolmap.c */,
+				AC8408A51AE6671600E93024 /* rdcolmap.o */,
+				AC8408A61AE6671600E93024 /* rdgif.c */,
+				AC8408A71AE6671600E93024 /* rdgif.o */,
+				AC8408A81AE6671600E93024 /* rdjpgcom */,
+				AC8408A91AE6671600E93024 /* rdjpgcom.1 */,
+				AC8408AA1AE6671600E93024 /* rdjpgcom.c */,
+				AC8408AB1AE6671600E93024 /* rdjpgcom.o */,
+				AC8408AC1AE6671600E93024 /* rdppm.c */,
+				AC8408AD1AE6671600E93024 /* rdppm.o */,
+				AC8408AE1AE6671600E93024 /* rdrle.c */,
+				AC8408AF1AE6671600E93024 /* rdrle.o */,
+				AC8408B01AE6671600E93024 /* rdswitch.c */,
+				AC8408B11AE6671600E93024 /* rdswitch.o */,
+				AC8408B21AE6671600E93024 /* rdtarga.c */,
+				AC8408B31AE6671600E93024 /* rdtarga.o */,
+				AC8408B41AE6671600E93024 /* README */,
+				AC8408B51AE6671600E93024 /* stamp-h1 */,
+				AC8408B61AE6671600E93024 /* structure.txt */,
+				AC8408B71AE6671600E93024 /* testimg.bmp */,
+				AC8408B81AE6671600E93024 /* testimg.jpg */,
+				AC8408B91AE6671600E93024 /* testimg.ppm */,
+				AC8408BA1AE6671600E93024 /* testimgp.jpg */,
+				AC8408BB1AE6671600E93024 /* testorig.jpg */,
+				AC8408BC1AE6671600E93024 /* testprog.jpg */,
+				AC8408BD1AE6671600E93024 /* transupp.c */,
+				AC8408BE1AE6671600E93024 /* transupp.h */,
+				AC8408BF1AE6671600E93024 /* transupp.o */,
+				AC8408C01AE6671600E93024 /* usage.txt */,
+				AC8408C11AE6671600E93024 /* wizard.txt */,
+				AC8408C21AE6671600E93024 /* wrbmp.c */,
+				AC8408C31AE6671600E93024 /* wrbmp.o */,
+				AC8408C41AE6671600E93024 /* wrgif.c */,
+				AC8408C51AE6671600E93024 /* wrgif.o */,
+				AC8408C61AE6671600E93024 /* wrjpgcom */,
+				AC8408C71AE6671600E93024 /* wrjpgcom.1 */,
+				AC8408C81AE6671600E93024 /* wrjpgcom.c */,
+				AC8408C91AE6671600E93024 /* wrjpgcom.o */,
+				AC8408CA1AE6671600E93024 /* wrppm.c */,
+				AC8408CB1AE6671600E93024 /* wrppm.o */,
+				AC8408CC1AE6671600E93024 /* wrrle.c */,
+				AC8408CD1AE6671600E93024 /* wrrle.o */,
+				AC8408CE1AE6671600E93024 /* wrtarga.c */,
+				AC8408CF1AE6671600E93024 /* wrtarga.o */,
+			);
+			sourceTree = "<group>";
+		};
+		AC8408511AE6671500E93024 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC8408541AE6671500E93024 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		AC8407971AE6671500E93024 /* jpeg-9a */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = AC8408D31AE6671600E93024 /* Build configuration list for PBXLegacyTarget "jpeg-9a" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/mac/jpeg-9a";
+			dependencies = (
+			);
+			name = "jpeg-9a";
+			passBuildSettingsInEnvironment = 1;
+			productName = "jpeg-9a";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		AC8407931AE6671500E93024 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = AC8407961AE6671500E93024 /* Build configuration list for PBXProject "jpeg-9a 3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC8407921AE6671500E93024;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AC8408511AE6671500E93024 /* Products */;
+					ProjectRef = AC8408501AE6671500E93024 /* jpeg-9a 2.xcodeproj */;
+				},
+				{
+					ProductGroup = AC8408541AE6671500E93024 /* Products */;
+					ProjectRef = AC8408531AE6671500E93024 /* jpeg-9a.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				AC8407971AE6671500E93024 /* jpeg-9a */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		AC8407941AE6671500E93024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AC8407951AE6671500E93024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AC8408D41AE6671600E93024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "jpeg-9a";
+			};
+			name = Debug;
+		};
+		AC8408D51AE6671600E93024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "jpeg-9a";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC8407961AE6671500E93024 /* Build configuration list for PBXProject "jpeg-9a 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8407941AE6671500E93024 /* Debug */,
+				AC8407951AE6671500E93024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC8408D31AE6671600E93024 /* Build configuration list for PBXLegacyTarget "jpeg-9a" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8408D41AE6671600E93024 /* Debug */,
+				AC8408D51AE6671600E93024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC8407931AE6671500E93024 /* Project object */;
+}

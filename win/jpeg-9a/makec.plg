@@ -1,0 +1,183 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cjpeg - Win32--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\kosmix\LOCALS~1\Temp\RSP118.tmp" with contents
+[
+/nologo /G6 /MT /W3 /GX /Ox /Oa /Ob2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /Fp".\cjpeg\Release/cjpeg.pch" /YX /Fo".\cjpeg\Release/" /Fd".\cjpeg\Release/" /FD /c 
+"C:\proj\csd\aaa004-2\libs\win\jpeg-9a\cdjpeg.c"
+"C:\proj\csd\aaa004-2\libs\win\jpeg-9a\cjpeg.c"
+"C:\proj\csd\aaa004-2\libs\win\jpeg-9a\rdbmp.c"
+"C:\proj\csd\aaa004-2\libs\win\jpeg-9a\rdgif.c"
+"C:\proj\csd\aaa004-2\libs\win\jpeg-9a\rdppm.c"
+"C:\proj\csd\aaa004-2\libs\win\jpeg-9a\rdrle.c"
+"C:\proj\csd\aaa004-2\libs\win\jpeg-9a\rdswitch.c"
+"C:\proj\csd\aaa004-2\libs\win\jpeg-9a\rdtarga.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\kosmix\LOCALS~1\Temp\RSP118.tmp" 
+Creating temporary file "C:\DOCUME~1\kosmix\LOCALS~1\Temp\RSP119.tmp" with contents
+[
+Release\jpeg.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:".\cjpeg\Release/cjpeg.pdb" /machine:I386 /out:".\cjpeg\Release/cjpeg.exe" 
+".\cjpeg\Release\cdjpeg.obj"
+".\cjpeg\Release\cjpeg.obj"
+".\cjpeg\Release\rdbmp.obj"
+".\cjpeg\Release\rdgif.obj"
+".\cjpeg\Release\rdppm.obj"
+".\cjpeg\Release\rdrle.obj"
+".\cjpeg\Release\rdswitch.obj"
+".\cjpeg\Release\rdtarga.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\kosmix\LOCALS~1\Temp\RSP119.tmp"
+<h3>Output Window</h3>
+Compiling...
+cdjpeg.c
+cjpeg.c
+rdbmp.c
+rdgif.c
+rdppm.c
+rdrle.c
+rdswitch.c
+rdtarga.c
+Linking...
+
+
+
+<h3>Results</h3>
+cjpeg.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: djpeg - Win32--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\kosmix\LOCALS~1\Temp\RSP11B.tmp" with contents
+[
+/nologo /G6 /MT /W3 /GX /Ox /Oa /Ob2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /Fp".\djpeg\Release/djpeg.pch" /YX /Fo".\djpeg\Release/" /Fd".\djpeg\Release/" /FD /c 
+"C:\proj\csd\aaa004-2\libs\win\jpeg-9a\cdjpeg.c"
+"C:\proj\csd\aaa004-2\libs\win\jpeg-9a\djpeg.c"
+"C:\proj\csd\aaa004-2\libs\win\jpeg-9a\rdcolmap.c"
+"C:\proj\csd\aaa004-2\libs\win\jpeg-9a\wrbmp.c"
+"C:\proj\csd\aaa004-2\libs\win\jpeg-9a\wrgif.c"
+"C:\proj\csd\aaa004-2\libs\win\jpeg-9a\wrppm.c"
+"C:\proj\csd\aaa004-2\libs\win\jpeg-9a\wrrle.c"
+"C:\proj\csd\aaa004-2\libs\win\jpeg-9a\wrtarga.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\kosmix\LOCALS~1\Temp\RSP11B.tmp" 
+Creating temporary file "C:\DOCUME~1\kosmix\LOCALS~1\Temp\RSP11C.tmp" with contents
+[
+Release\jpeg.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:".\djpeg\Release/djpeg.pdb" /machine:I386 /out:".\djpeg\Release/djpeg.exe" 
+".\djpeg\Release\cdjpeg.obj"
+".\djpeg\Release\djpeg.obj"
+".\djpeg\Release\rdcolmap.obj"
+".\djpeg\Release\wrbmp.obj"
+".\djpeg\Release\wrgif.obj"
+".\djpeg\Release\wrppm.obj"
+".\djpeg\Release\wrrle.obj"
+".\djpeg\Release\wrtarga.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\kosmix\LOCALS~1\Temp\RSP11C.tmp"
+<h3>Output Window</h3>
+Compiling...
+cdjpeg.c
+djpeg.c
+rdcolmap.c
+wrbmp.c
+wrgif.c
+wrppm.c
+wrrle.c
+wrtarga.c
+Linking...
+
+
+
+<h3>Results</h3>
+djpeg.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: jpegtran - Win32--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\kosmix\LOCALS~1\Temp\RSP11E.tmp" with contents
+[
+/nologo /G6 /MT /W3 /GX /Ox /Oa /Ob2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /Fp".\jpegtran\Release/jpegtran.pch" /YX /Fo".\jpegtran\Release/" /Fd".\jpegtran\Release/" /FD /c 
+"C:\proj\csd\aaa004-2\libs\win\jpeg-9a\cdjpeg.c"
+"C:\proj\csd\aaa004-2\libs\win\jpeg-9a\jpegtran.c"
+"C:\proj\csd\aaa004-2\libs\win\jpeg-9a\rdswitch.c"
+"C:\proj\csd\aaa004-2\libs\win\jpeg-9a\transupp.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\kosmix\LOCALS~1\Temp\RSP11E.tmp" 
+Creating temporary file "C:\DOCUME~1\kosmix\LOCALS~1\Temp\RSP11F.tmp" with contents
+[
+Release\jpeg.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:".\jpegtran\Release/jpegtran.pdb" /machine:I386 /out:".\jpegtran\Release/jpegtran.exe" 
+".\jpegtran\Release\cdjpeg.obj"
+".\jpegtran\Release\jpegtran.obj"
+".\jpegtran\Release\rdswitch.obj"
+".\jpegtran\Release\transupp.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\kosmix\LOCALS~1\Temp\RSP11F.tmp"
+<h3>Output Window</h3>
+Compiling...
+cdjpeg.c
+jpegtran.c
+rdswitch.c
+transupp.c
+Linking...
+
+
+
+<h3>Results</h3>
+jpegtran.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: rdjpgcom - Win32--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\kosmix\LOCALS~1\Temp\RSP121.tmp" with contents
+[
+/nologo /G6 /MT /W3 /GX /Ox /Oa /Ob2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /Fp".\rdjpgcom\Release/rdjpgcom.pch" /YX /Fo".\rdjpgcom\Release/" /Fd".\rdjpgcom\Release/" /FD /c 
+"C:\proj\csd\aaa004-2\libs\win\jpeg-9a\rdjpgcom.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\kosmix\LOCALS~1\Temp\RSP121.tmp" 
+Creating temporary file "C:\DOCUME~1\kosmix\LOCALS~1\Temp\RSP122.tmp" with contents
+[
+Release\jpeg.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:".\rdjpgcom\Release/rdjpgcom.pdb" /machine:I386 /out:".\rdjpgcom\Release/rdjpgcom.exe" 
+".\rdjpgcom\Release\rdjpgcom.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\kosmix\LOCALS~1\Temp\RSP122.tmp"
+<h3>Output Window</h3>
+Compiling...
+rdjpgcom.c
+Linking...
+
+
+
+<h3>Results</h3>
+rdjpgcom.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: wrjpgcom - Win32--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\kosmix\LOCALS~1\Temp\RSP124.tmp" with contents
+[
+/nologo /G6 /MT /W3 /GX /Ox /Oa /Ob2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /Fp".\wrjpgcom\Release/wrjpgcom.pch" /YX /Fo".\wrjpgcom\Release/" /Fd".\wrjpgcom\Release/" /FD /c 
+"C:\proj\csd\aaa004-2\libs\win\jpeg-9a\wrjpgcom.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\kosmix\LOCALS~1\Temp\RSP124.tmp" 
+Creating temporary file "C:\DOCUME~1\kosmix\LOCALS~1\Temp\RSP125.tmp" with contents
+[
+Release\jpeg.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:".\wrjpgcom\Release/wrjpgcom.pdb" /machine:I386 /out:".\wrjpgcom\Release/wrjpgcom.exe" 
+".\wrjpgcom\Release\wrjpgcom.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\kosmix\LOCALS~1\Temp\RSP125.tmp"
+<h3>Output Window</h3>
+Compiling...
+wrjpgcom.c
+Linking...
+
+
+
+<h3>Results</h3>
+wrjpgcom.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,257 @@
+----------------------------------------------------------------------------
+Info,  T8696: Load D:\proj\se\testfolder\models\fol\poplar1\Poplar 1.3ds
+
+Debug, T8696: Assimp 3.1.0 x86 msvc noboost shared singlethreaded
+
+Debug, T8696: START `total`
+
+Info,  T8696: Found a matching importer for this file format
+
+Debug, T8696: START `import`
+
+Info,  T8696: Import root directory is 'D:\proj\se\testfolder\models\fol\poplar1\'
+
+Info,  T8696: 3DS file format version: 3
+
+Warn,  T8696: 3DS: Skipping TCB animation info
+
+Skipping one or more lines with the same contents
+
+Debug, T8696: END   `import`, dt= 0.928 s
+
+Debug, T8696: ValidateDataStructureProcess begin
+
+Debug, T8696: ValidateDataStructureProcess end
+
+Debug, T8696: START `preprocess`
+
+Debug, T8696: END   `preprocess`, dt= 0.004 s
+
+Info,  T8696: Entering post processing pipeline
+
+Debug, T8696: START `postprocess`
+
+Debug, T8696: MakeLeftHandedProcess begin
+
+Debug, T8696: MakeLeftHandedProcess finished
+
+Debug, T8696: END   `postprocess`, dt= 0.009 s
+
+Debug, T8696: START `postprocess`
+
+Debug, T8696: FlipUVsProcess begin
+
+Debug, T8696: FlipUVsProcess finished
+
+Debug, T8696: END   `postprocess`, dt= 0.004 s
+
+Debug, T8696: START `postprocess`
+
+Debug, T8696: FlipWindingOrderProcess begin
+
+Debug, T8696: FlipWindingOrderProcess finished
+
+Debug, T8696: END   `postprocess`, dt= 0.004 s
+
+Debug, T8696: START `postprocess`
+
+Debug, T8696: RemoveRedundantMatsProcess begin
+
+Debug, T8696: RemoveRedundantMatsProcess finished 
+
+Debug, T8696: END   `postprocess`, dt= 0 s
+
+Debug, T8696: START `postprocess`
+
+Debug, T8696: FindInstancesProcess begin
+
+Debug, T8696: FindInstancesProcess finished. No instanced meshes found
+
+Debug, T8696: END   `postprocess`, dt= 0.015 s
+
+Debug, T8696: START `postprocess`
+
+Debug, T8696: FindDegeneratesProcess begin
+
+Debug, T8696: FindDegeneratesProcess finished
+
+Debug, T8696: END   `postprocess`, dt= 0.007 s
+
+Debug, T8696: START `postprocess`
+
+Debug, T8696: GenUVCoordsProcess begin
+
+Debug, T8696: GenUVCoordsProcess finished
+
+Debug, T8696: END   `postprocess`, dt= 0 s
+
+Debug, T8696: START `postprocess`
+
+Debug, T8696: TransformUVCoordsProcess begin
+
+Debug, T8696: TransformUVCoordsProcess finished
+
+Debug, T8696: END   `postprocess`, dt= 0 s
+
+Debug, T8696: START `postprocess`
+
+Debug, T8696: TriangulateProcess begin
+
+Debug, T8696: TriangulateProcess finished. There was nothing to be done.
+
+Debug, T8696: END   `postprocess`, dt= 0 s
+
+Debug, T8696: START `postprocess`
+
+Debug, T8696: SortByPTypeProcess begin
+
+Info,  T8696: Points: 0, Lines: 0, Triangles: 12, Polygons: 0 (Meshes, X = removed)
+
+Debug, T8696: SortByPTypeProcess finished
+
+Debug, T8696: END   `postprocess`, dt= 0 s
+
+Debug, T8696: START `postprocess`
+
+Debug, T8696: FindInvalidDataProcess begin
+
+Debug, T8696: FindInvalidDataProcess finished. Everything seems to be OK.
+
+Debug, T8696: END   `postprocess`, dt= 0.029 s
+
+Debug, T8696: START `postprocess`
+
+Debug, T8696: OptimizeMeshesProcess begin
+
+Debug, T8696: OptimizeMeshesProcess finished
+
+Debug, T8696: END   `postprocess`, dt= 0 s
+
+Debug, T8696: START `postprocess`
+
+Debug, T8696: SplitByBoneCountProcess begin
+
+Debug, T8696: SplitByBoneCountProcess early-out: no meshes with more than 60 bones.
+
+Debug, T8696: END   `postprocess`, dt= 0 s
+
+Debug, T8696: START `postprocess`
+
+Debug, T8696: SplitLargeMeshesProcess_Triangle begin
+
+Debug, T8696: SplitLargeMeshesProcess_Triangle finished. There was nothing to do
+
+Debug, T8696: END   `postprocess`, dt= 0.019 s
+
+Debug, T8696: START `postprocess`
+
+Debug, T8696: Generate spatially-sorted vertex cache
+
+Debug, T8696: END   `postprocess`, dt= 0.211 s
+
+Debug, T8696: START `postprocess`
+
+Debug, T8696: GenVertexNormalsProcess begin
+
+Debug, T8696: GenVertexNormalsProcess finished. Normals are already there
+
+Debug, T8696: END   `postprocess`, dt= 0.001 s
+
+Debug, T8696: START `postprocess`
+
+Debug, T8696: CalcTangentsProcess begin
+
+Info,  T8696: CalcTangentsProcess finished. Tangents have been calculated
+
+Debug, T8696: END   `postprocess`, dt= 0.377 s
+
+Debug, T8696: START `postprocess`
+
+Debug, T8696: JoinVerticesProcess begin
+
+Debug, T8696: Mesh 0 (0) | Verts in: 196599 out: 50492 | ~74.3173
+
+Debug, T8696: Mesh 1 (1) | Verts in: 162501 out: 66128 | ~59.3061
+
+Debug, T8696: Mesh 2 (2) | Verts in: 161718 out: 65714 | ~59.3651
+
+Debug, T8696: Mesh 3 (3) | Verts in: 133056 out: 65531 | ~50.7493
+
+Debug, T8696: Mesh 4 (4) | Verts in: 133704 out: 65532 | ~50.9873
+
+Debug, T8696: Mesh 5 (5) | Verts in: 98295 out: 65531 | ~33.3323
+
+Debug, T8696: Mesh 6 (6) | Verts in: 157581 out: 66119 | ~58.0413
+
+Debug, T8696: Mesh 7 (7) | Verts in: 156663 out: 66183 | ~57.7545
+
+Debug, T8696: Mesh 8 (8) | Verts in: 182841 out: 66455 | ~63.6542
+
+Debug, T8696: Mesh 9 (9) | Verts in: 196584 out: 66792 | ~66.0237
+
+Debug, T8696: Mesh 10 (10) | Verts in: 196581 out: 66776 | ~66.0313
+
+Debug, T8696: Mesh 11 (11) | Verts in: 22164 out: 7518 | ~66.0801
+
+Info,  T8696: JoinVerticesProcess finished | Verts in: 1798287 out: 718771 | ~60.0
+
+Debug, T8696: END   `postprocess`, dt= 0.415 s
+
+Debug, T8696: START `postprocess`
+
+Debug, T8696: END   `postprocess`, dt= 0.002 s
+
+Debug, T8696: START `postprocess`
+
+Debug, T8696: SplitLargeMeshesProcess_Vertex begin
+
+Debug, T8696: SplitLargeMeshesProcess_Vertex finished. There was nothing to do
+
+Debug, T8696: END   `postprocess`, dt= 0.001 s
+
+Debug, T8696: START `postprocess`
+
+Debug, T8696: LimitBoneWeightsProcess begin
+
+Debug, T8696: LimitBoneWeightsProcess end
+
+Debug, T8696: END   `postprocess`, dt= 0 s
+
+Debug, T8696: START `postprocess`
+
+Debug, T8696: ImproveCacheLocalityProcess begin
+
+Debug, T8696: Mesh 0 | ACMR in: 0.960386 out: 0.881159 | ~8.2
+
+Debug, T8696: Mesh 1 | ACMR in: 1.221205 out: 1.225875 | ~-0.4
+
+Debug, T8696: Mesh 2 | ACMR in: 1.219048 out: 1.219048 | ~0.0
+
+Debug, T8696: Mesh 3 | ACMR in: 1.477521 out: 1.477521 | ~0.0
+
+Debug, T8696: Mesh 4 | ACMR in: 1.470382 out: 1.470382 | ~0.0
+
+Debug, T8696: Mesh 5 | ACMR in: 2.000031 out: 2.000031 | ~0.0
+
+Debug, T8696: Mesh 6 | ACMR in: 1.258762 out: 1.258762 | ~0.0
+
+Debug, T8696: Mesh 7 | ACMR in: 1.267364 out: 1.267364 | ~0.0
+
+Debug, T8696: Mesh 8 | ACMR in: 1.090374 out: 1.090374 | ~0.0
+
+Debug, T8696: Mesh 9 | ACMR in: 1.019289 out: 1.019289 | ~0.0
+
+Debug, T8696: Mesh 10 | ACMR in: 1.019061 out: 1.019061 | ~0.0
+
+Debug, T8696: Mesh 11 | ACMR in: 1.017596 out: 1.017596 | ~0.0
+
+Info,  T8696: Cache relevant are 12 meshes (599429 faces). Average output ACMR is 1.211650
+
+Debug, T8696: ImproveCacheLocalityProcess finished. 
+
+Debug, T8696: END   `postprocess`, dt= 0.041 s
+
+Info,  T8696: Leaving post processing pipeline
+
+Debug, T8696: END   `total`, dt= 2.116 s
+

@@ -1,0 +1,1097 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              641A1451E7D146E39A648236 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 948510E7DB254AE9870A7FA8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            55C20C01CEEF4B8FB758491B /* CMake Rules */,
+                     );
+                     dependencies = (
+                            AEF2A197475F4ED1927288B0 /* PBXTargetDependency */,
+                            58F8AA7BB03F4277B619F588 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              2FBFA57159D04888928639AA /* RUN_TESTS */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = F77E9293C2BB4516B5CC5AEC /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+                     buildPhases = (
+                            70F25BD176BA45EC8E78E090 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = RUN_TESTS;
+                     productName = RUN_TESTS;
+              };
+              57DCA705B6394449BDB4A6A8 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = F67FB088E1FD4B848B761BEA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            E65793A2778640BEB6CDC4ED /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              802FE28481994673A6926A92 /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 3EB71CBB1A3A4B8AAF4B586D /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            6D317984AC1944B6B600C197 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            B7B0F05494C7403F9F224C96 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+48ADAD394F334B9D861A2188 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 84B8487A958E453A9F1C032B /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+2729C2E5454B49B4AA647AD6 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project/pnglibconf.h */ = {isa = PBXBuildFile; fileRef = A02F8450A38943618D7484EB /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project/pnglibconf.h */; settings = { COMPILER_FLAGS = ""; }; };
+9E86096244944304A7BB108A /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/png.c */ = {isa = PBXBuildFile; fileRef = A857173ECA0C4EC6ABFFDB57 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/png.c */; settings = { COMPILER_FLAGS = ""; }; };
+76E3A74B2460452F85DCA387 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/png.h */ = {isa = PBXBuildFile; fileRef = FEB227B89AA0450CAD46DF11 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/png.h */; settings = { COMPILER_FLAGS = ""; }; };
+DDE8D93A764442C08D62528E /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngconf.h */ = {isa = PBXBuildFile; fileRef = 55CF06CE95DA4660AA1C858C /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngconf.h */; settings = { COMPILER_FLAGS = ""; }; };
+35F7E869690D4168A64E8D98 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngdebug.h */ = {isa = PBXBuildFile; fileRef = 03B52C67269D41D38DEE9735 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngdebug.h */; settings = { COMPILER_FLAGS = ""; }; };
+9682CBC7BC55410187F2C86A /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngerror.c */ = {isa = PBXBuildFile; fileRef = 5F43C71DADFB429392A1353C /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngerror.c */; settings = { COMPILER_FLAGS = ""; }; };
+1B988E1E8B544F95810E4837 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngget.c */ = {isa = PBXBuildFile; fileRef = 3D2556D7BBC54816B3019828 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngget.c */; settings = { COMPILER_FLAGS = ""; }; };
+74EC0240E94948CC8C7E7FDF /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pnginfo.h */ = {isa = PBXBuildFile; fileRef = 6462501CC45748BA9AD7DC9F /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pnginfo.h */; settings = { COMPILER_FLAGS = ""; }; };
+632B74AB9A6242C9A88618ED /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngmem.c */ = {isa = PBXBuildFile; fileRef = 7FC1B912647B4764ABD40372 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngmem.c */; settings = { COMPILER_FLAGS = ""; }; };
+07BE5574AE2E4541BBE91548 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngpread.c */ = {isa = PBXBuildFile; fileRef = 657C84ED005F4AC9B561B103 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngpread.c */; settings = { COMPILER_FLAGS = ""; }; };
+DCBD903D5F7C43E3BAF30E82 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngpriv.h */ = {isa = PBXBuildFile; fileRef = 7642ADA789554BCF92478EDB /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngpriv.h */; settings = { COMPILER_FLAGS = ""; }; };
+EF547F9D29B14B3F875ED159 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngread.c */ = {isa = PBXBuildFile; fileRef = 644422D33B5145EB9704B529 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngread.c */; settings = { COMPILER_FLAGS = ""; }; };
+BD3BCD9F9EB7437EA1EBA586 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngrio.c */ = {isa = PBXBuildFile; fileRef = AD695B2319454DBEA2094CA1 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngrio.c */; settings = { COMPILER_FLAGS = ""; }; };
+492E0B6F1E224A5DA2A16593 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngrtran.c */ = {isa = PBXBuildFile; fileRef = 42E5DF3AA8194C69A6B2AE90 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngrtran.c */; settings = { COMPILER_FLAGS = ""; }; };
+C6F11922C54D45E3A1577AA9 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngrutil.c */ = {isa = PBXBuildFile; fileRef = 55481BB3A32C4BC3A3A36718 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngrutil.c */; settings = { COMPILER_FLAGS = ""; }; };
+8DC6E5B53C4643BB90014663 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngset.c */ = {isa = PBXBuildFile; fileRef = 884ED3C33BD443238CEB04C7 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngset.c */; settings = { COMPILER_FLAGS = ""; }; };
+E9A6C6BCB62E41D795824950 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngstruct.h */ = {isa = PBXBuildFile; fileRef = 49C9C4DEB7444CD4B4D5DBC3 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngstruct.h */; settings = { COMPILER_FLAGS = ""; }; };
+574D9192F5E04AB8B9C86133 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngtrans.c */ = {isa = PBXBuildFile; fileRef = 7BEA7482BD1E41A781DC5446 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngtrans.c */; settings = { COMPILER_FLAGS = ""; }; };
+5C87ED1A8D6F420A9C9B5DC5 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngwio.c */ = {isa = PBXBuildFile; fileRef = 3F5423FF0BC148CBBC247CB7 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngwio.c */; settings = { COMPILER_FLAGS = ""; }; };
+4E3100D3261E4981BE051948 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngwrite.c */ = {isa = PBXBuildFile; fileRef = 931D40E8D1844231AB4A18A8 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngwrite.c */; settings = { COMPILER_FLAGS = ""; }; };
+84AE1E619E9849B69A906C3D /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngwtran.c */ = {isa = PBXBuildFile; fileRef = C58D2FD0F32B4DB187A69228 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngwtran.c */; settings = { COMPILER_FLAGS = ""; }; };
+ECFACC6D03A34C31A5508588 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngwutil.c */ = {isa = PBXBuildFile; fileRef = 2AA93CC06CC34561BFD690C1 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngwutil.c */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              2AAF4A7D8C7E4F0D9BF8ABC6 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              CC777FEAE81541A4B0097F27 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              7FD2A59991F14E1B820553A7 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              7B727E6AAF894E35B74196C8 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              51D92B9240914D2C9FFEFA05 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              AFC48A87B4D24F2E9B2094C6 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = E3E4B5EF5BCC478B8CA9CD7F /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 57DCA705B6394449BDB4A6A8;
+                     remoteInfo = ZERO_CHECK;
+              };
+              CEA2BD8711E54BE2B6A0081D /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = E3E4B5EF5BCC478B8CA9CD7F /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = B29F57C25D5141D499D900AA;
+                     remoteInfo = png16_static;
+              };
+              B6AFFE90CAE040E8956CA18A /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = E3E4B5EF5BCC478B8CA9CD7F /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 641A1451E7D146E39A648236;
+                     remoteInfo = ALL_BUILD;
+              };
+              AFD4800278374ACB82802233 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = E3E4B5EF5BCC478B8CA9CD7F /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 57DCA705B6394449BDB4A6A8;
+                     remoteInfo = ZERO_CHECK;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+84B8487A958E453A9F1C032B /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+A02F8450A38943618D7484EB /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project/pnglibconf.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "pnglibconf.h"; path = "iphone-project/pnglibconf.h"; sourceTree = SOURCE_ROOT; };
+A857173ECA0C4EC6ABFFDB57 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/png.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "png.c"; path = "png.c"; sourceTree = SOURCE_ROOT; };
+FEB227B89AA0450CAD46DF11 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/png.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "png.h"; path = "png.h"; sourceTree = SOURCE_ROOT; };
+55CF06CE95DA4660AA1C858C /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngconf.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "pngconf.h"; path = "pngconf.h"; sourceTree = SOURCE_ROOT; };
+03B52C67269D41D38DEE9735 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngdebug.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "pngdebug.h"; path = "pngdebug.h"; sourceTree = SOURCE_ROOT; };
+5F43C71DADFB429392A1353C /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngerror.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngerror.c"; path = "pngerror.c"; sourceTree = SOURCE_ROOT; };
+3D2556D7BBC54816B3019828 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngget.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngget.c"; path = "pngget.c"; sourceTree = SOURCE_ROOT; };
+6462501CC45748BA9AD7DC9F /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pnginfo.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "pnginfo.h"; path = "pnginfo.h"; sourceTree = SOURCE_ROOT; };
+7FC1B912647B4764ABD40372 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngmem.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngmem.c"; path = "pngmem.c"; sourceTree = SOURCE_ROOT; };
+657C84ED005F4AC9B561B103 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngpread.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngpread.c"; path = "pngpread.c"; sourceTree = SOURCE_ROOT; };
+7642ADA789554BCF92478EDB /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngpriv.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "pngpriv.h"; path = "pngpriv.h"; sourceTree = SOURCE_ROOT; };
+644422D33B5145EB9704B529 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngread.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngread.c"; path = "pngread.c"; sourceTree = SOURCE_ROOT; };
+AD695B2319454DBEA2094CA1 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngrio.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngrio.c"; path = "pngrio.c"; sourceTree = SOURCE_ROOT; };
+42E5DF3AA8194C69A6B2AE90 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngrtran.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngrtran.c"; path = "pngrtran.c"; sourceTree = SOURCE_ROOT; };
+55481BB3A32C4BC3A3A36718 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngrutil.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngrutil.c"; path = "pngrutil.c"; sourceTree = SOURCE_ROOT; };
+884ED3C33BD443238CEB04C7 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngset.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngset.c"; path = "pngset.c"; sourceTree = SOURCE_ROOT; };
+49C9C4DEB7444CD4B4D5DBC3 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngstruct.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "pngstruct.h"; path = "pngstruct.h"; sourceTree = SOURCE_ROOT; };
+7BEA7482BD1E41A781DC5446 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngtrans.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngtrans.c"; path = "pngtrans.c"; sourceTree = SOURCE_ROOT; };
+3F5423FF0BC148CBBC247CB7 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngwio.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngwio.c"; path = "pngwio.c"; sourceTree = SOURCE_ROOT; };
+931D40E8D1844231AB4A18A8 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngwrite.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngwrite.c"; path = "pngwrite.c"; sourceTree = SOURCE_ROOT; };
+C58D2FD0F32B4DB187A69228 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngwtran.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngwtran.c"; path = "pngwtran.c"; sourceTree = SOURCE_ROOT; };
+2AA93CC06CC34561BFD690C1 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngwutil.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "pngwutil.c"; path = "pngwutil.c"; sourceTree = SOURCE_ROOT; };
+C4D267B8613B418384EAAB43 /* png16_static */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libpng16.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              FC25CC8F9A0B4A21ABAC09DC  = {
+                     isa = PBXGroup;
+                     children = (
+                            82AF9B9788C74D9082A8B35B /* Sources */,
+                            A8F4B01B13D043408D52BBBB /* Resources */,
+                            357503BAD7DD47D1A9239A2A /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              82AF9B9788C74D9082A8B35B /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            34FFC6A6319046618C00C95D /* ALL_BUILD */,
+                            164CFB1BDF2D42D4814B10AF /* ZERO_CHECK */,
+                            9361A4F809824BD7A1BEC905 /* png16_static */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              A8F4B01B13D043408D52BBBB /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              34FFC6A6319046618C00C95D /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            E6F3CACE95D140EDA418B29F /* CMake Rules */,
+                            84B8487A958E453A9F1C032B /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              E6F3CACE95D140EDA418B29F /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              164CFB1BDF2D42D4814B10AF /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            87DA8DFB3EC54305A6F9EBCB /* CMake Rules */,
+                            84B8487A958E453A9F1C032B /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              87DA8DFB3EC54305A6F9EBCB /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              9361A4F809824BD7A1BEC905 /* png16_static */ = {
+                     isa = PBXGroup;
+                     children = (
+                            DF72BBF51160439BBD678A96 /* Header Files */,
+                            741A21EEA1004FFDB198932A /* Source Files */,
+                            84B8487A958E453A9F1C032B /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/CMakeLists.txt */,
+                     );
+                     name = png16_static;
+                     sourceTree = "<group>";
+              };
+              DF72BBF51160439BBD678A96 /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            A02F8450A38943618D7484EB /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project/pnglibconf.h */,
+                            FEB227B89AA0450CAD46DF11 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/png.h */,
+                            55CF06CE95DA4660AA1C858C /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngconf.h */,
+                            03B52C67269D41D38DEE9735 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngdebug.h */,
+                            6462501CC45748BA9AD7DC9F /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pnginfo.h */,
+                            7642ADA789554BCF92478EDB /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngpriv.h */,
+                            49C9C4DEB7444CD4B4D5DBC3 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngstruct.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              741A21EEA1004FFDB198932A /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            A857173ECA0C4EC6ABFFDB57 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/png.c */,
+                            5F43C71DADFB429392A1353C /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngerror.c */,
+                            3D2556D7BBC54816B3019828 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngget.c */,
+                            7FC1B912647B4764ABD40372 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngmem.c */,
+                            657C84ED005F4AC9B561B103 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngpread.c */,
+                            644422D33B5145EB9704B529 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngread.c */,
+                            AD695B2319454DBEA2094CA1 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngrio.c */,
+                            42E5DF3AA8194C69A6B2AE90 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngrtran.c */,
+                            55481BB3A32C4BC3A3A36718 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngrutil.c */,
+                            884ED3C33BD443238CEB04C7 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngset.c */,
+                            7BEA7482BD1E41A781DC5446 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngtrans.c */,
+                            3F5423FF0BC148CBBC247CB7 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngwio.c */,
+                            931D40E8D1844231AB4A18A8 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngwrite.c */,
+                            C58D2FD0F32B4DB187A69228 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngwtran.c */,
+                            2AA93CC06CC34561BFD690C1 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngwutil.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              357503BAD7DD47D1A9239A2A /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C4D267B8613B418384EAAB43 /* png16_static */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              B29F57C25D5141D499D900AA /* png16_static */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = E10CE0CF6C5C4280896BFDFF /* Build configuration list for PBXNativeTarget "png16_static" */;
+                     buildPhases = (
+                            04A06803283A49FFA97EB1E2 /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            6D27082F06C648049DB7D668 /* PBXTargetDependency */,
+                     );
+                     name = png16_static;
+                     productName = png16_static;
+                     productReference = C4D267B8613B418384EAAB43 /* png16_static */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              E3E4B5EF5BCC478B8CA9CD7F /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 3047CF42AAA3440E8F34884C /* Build configuration list for PBXProject  "libpng" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            CC777FEAE81541A4B0097F27 /* Release */,
+                            7FD2A59991F14E1B820553A7 /* Debug */,
+                            7B727E6AAF894E35B74196C8 /* MinSizeRel */,
+                            51D92B9240914D2C9FFEFA05 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = FC25CC8F9A0B4A21ABAC09DC;
+                     projectDirPath = "..";
+                     projectRoot = "";
+                     targets = (
+                            641A1451E7D146E39A648236 /* ALL_BUILD */,
+                            2FBFA57159D04888928639AA /* RUN_TESTS */,
+                            57DCA705B6394449BDB4A6A8 /* ZERO_CHECK */,
+                            802FE28481994673A6926A92 /* install */,
+                            B29F57C25D5141D499D900AA /* png16_static */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              66AA74A3C3224D0E8A39BBAB /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              55C20C01CEEF4B8FB758491B /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project -f /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              7444755BBF464B4DAF0724A1 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              70F25BD176BA45EC8E78E090 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project -f /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              E134DF0595604748ABC5F9B3 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              E65793A2778640BEB6CDC4ED /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project -f /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              AC1E78A1149F478CA59D195D /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              6D317984AC1944B6B600C197 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project -f /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              04A06803283A49FFA97EB1E2 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            9E86096244944304A7BB108A /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/png.c */,
+                            9682CBC7BC55410187F2C86A /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngerror.c */,
+                            1B988E1E8B544F95810E4837 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngget.c */,
+                            632B74AB9A6242C9A88618ED /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngmem.c */,
+                            07BE5574AE2E4541BBE91548 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngpread.c */,
+                            EF547F9D29B14B3F875ED159 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngread.c */,
+                            BD3BCD9F9EB7437EA1EBA586 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngrio.c */,
+                            492E0B6F1E224A5DA2A16593 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngrtran.c */,
+                            C6F11922C54D45E3A1577AA9 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngrutil.c */,
+                            8DC6E5B53C4643BB90014663 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngset.c */,
+                            574D9192F5E04AB8B9C86133 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngtrans.c */,
+                            5C87ED1A8D6F420A9C9B5DC5 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngwio.c */,
+                            4E3100D3261E4981BE051948 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngwrite.c */,
+                            84AE1E619E9849B69A906C3D /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngwtran.c */,
+                            ECFACC6D03A34C31A5508588 /* /Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/pngwutil.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              AEF2A197475F4ED1927288B0 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 57DCA705B6394449BDB4A6A8 /* ZERO_CHECK */;
+                     targetProxy = AFC48A87B4D24F2E9B2094C6 /* PBXContainerItemProxy */;
+              };
+              58F8AA7BB03F4277B619F588 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = B29F57C25D5141D499D900AA /* png16_static */;
+                     targetProxy = CEA2BD8711E54BE2B6A0081D /* PBXContainerItemProxy */;
+              };
+              B7B0F05494C7403F9F224C96 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 641A1451E7D146E39A648236 /* ALL_BUILD */;
+                     targetProxy = B6AFFE90CAE040E8956CA18A /* PBXContainerItemProxy */;
+              };
+              6D27082F06C648049DB7D668 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 57DCA705B6394449BDB4A6A8 /* ZERO_CHECK */;
+                     targetProxy = AFD4800278374ACB82802233 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              82AF972A80484074B6868CD8 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT) arm64";
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk";
+                            SYMROOT = "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project/build";
+                     };
+                     name = Release;
+              };
+              4EB6686B4D2149D5993C2B65 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT) arm64";
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk";
+                            SYMROOT = "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project/build";
+                     };
+                     name = Debug;
+              };
+              1DEA6603243E4D468E88A865 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT) arm64";
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk";
+                            SYMROOT = "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project/build";
+                     };
+                     name = MinSizeRel;
+              };
+              FDEF6FC83D2649AFA438673D /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT) arm64";
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk";
+                            SYMROOT = "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project/build";
+                     };
+                     name = RelWithDebInfo;
+              };
+              0752E586D18348F890B6B63B /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT) arm64";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project", "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              62F2967E9FA647E9860F7D9F /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT) arm64";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project", "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              2104552794A04BECAC09A2E9 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT) arm64";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project", "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              9767EB26D5EF43ED99DA4D2E /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT) arm64";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project", "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              D29CC0FAEA8E471D93E073FB /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT) arm64";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project", "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = RUN_TESTS;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              5BF41D5BE5DD42BBB6F9FD1C /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT) arm64";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project", "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = RUN_TESTS;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              0DDB0B77E8764367AB6BBF3A /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT) arm64";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project", "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = RUN_TESTS;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              201D00E67ED34202B93B6B4B /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT) arm64";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project", "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = RUN_TESTS;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              3A1F3A6F28544C3AA22F8A23 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT) arm64";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project", "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              BBE21B40A74A494D927A7795 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT) arm64";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project", "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              4B1B21D3619C41D8945C612E /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT) arm64";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project", "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              1EB7A8A0227F40ADB5D5A182 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT) arm64";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project", "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              6B3B3E2C3E9045D7A99936E6 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT) arm64";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project", "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              248557CB0A334881A1EEB825 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT) arm64";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project", "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              4F7BB4FD57F74A01BECBCC32 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT) arm64";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project", "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              FE821BB67A984A9E88DC6340 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT) arm64";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project", "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              90E19BACA0E44EFCB34FCC49 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT) arm64";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project", "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = png16;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              1A5E3428BDFE4E489361573D /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT) arm64";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project", "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = png16d;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              52273DFA4B9A4BD08C27CE47 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT) arm64";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project", "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = png16;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              888C7ED9BB4743148406D52F /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT) arm64";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project", "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = png16;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/polyfrag/Desktop/Projects/CorpStatesD/aaa004_iso/libs/ios/libpng-1.6.17/iphone-project";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              3047CF42AAA3440E8F34884C /* Build configuration list for PBXProject  "libpng" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            82AF972A80484074B6868CD8 /* Release */,
+                            4EB6686B4D2149D5993C2B65 /* Debug */,
+                            1DEA6603243E4D468E88A865 /* MinSizeRel */,
+                            FDEF6FC83D2649AFA438673D /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Release;
+              };
+              948510E7DB254AE9870A7FA8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            0752E586D18348F890B6B63B /* Release */,
+                            62F2967E9FA647E9860F7D9F /* Debug */,
+                            2104552794A04BECAC09A2E9 /* MinSizeRel */,
+                            9767EB26D5EF43ED99DA4D2E /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Release;
+              };
+              F77E9293C2BB4516B5CC5AEC /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            D29CC0FAEA8E471D93E073FB /* Release */,
+                            5BF41D5BE5DD42BBB6F9FD1C /* Debug */,
+                            0DDB0B77E8764367AB6BBF3A /* MinSizeRel */,
+                            201D00E67ED34202B93B6B4B /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Release;
+              };
+              F67FB088E1FD4B848B761BEA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            3A1F3A6F28544C3AA22F8A23 /* Release */,
+                            BBE21B40A74A494D927A7795 /* Debug */,
+                            4B1B21D3619C41D8945C612E /* MinSizeRel */,
+                            1EB7A8A0227F40ADB5D5A182 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Release;
+              };
+              3EB71CBB1A3A4B8AAF4B586D /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            6B3B3E2C3E9045D7A99936E6 /* Release */,
+                            248557CB0A334881A1EEB825 /* Debug */,
+                            4F7BB4FD57F74A01BECBCC32 /* MinSizeRel */,
+                            FE821BB67A984A9E88DC6340 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Release;
+              };
+              E10CE0CF6C5C4280896BFDFF /* Build configuration list for PBXNativeTarget "png16_static" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            90E19BACA0E44EFCB34FCC49 /* Release */,
+                            1A5E3428BDFE4E489361573D /* Debug */,
+                            52273DFA4B9A4BD08C27CE47 /* MinSizeRel */,
+                            888C7ED9BB4743148406D52F /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Release;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = E3E4B5EF5BCC478B8CA9CD7F;
+}
